@@ -1,3 +1,3 @@
-str_split_comma <- function(x) {
-  strsplit(x, split = ",")[[1]]
+str_split_comma <- function(string) {
+  str_split_one(string, pattern = ",")
 }
